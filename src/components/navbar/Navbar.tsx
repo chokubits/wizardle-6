@@ -7,10 +7,10 @@ import { GAME_TITLE } from '../../constants/strings'
 var game_title = GAME_TITLE;
 export function changeGameTitle(isHardMode: boolean) {
   if(isHardMode){
-    game_title = 'Paimordle VI Extreme'
+    game_title = 'Wizardle 6 Extreme'
   }
   else{
-    game_title = 'Paimordle VI'
+    game_title = 'Wizardle 6'
   }
 }
 type Props = {
