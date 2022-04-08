@@ -79,7 +79,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
           Mahoyaku Wordle created by {' '}
          <a href="https://twitter.com/forinnen" className="underline font-bold">
-           <b>Ran</b>. 
+           <b>forinnen</b>. 
           </a>{' '}
           <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
           Check the Wizardle's github {' '}
