@@ -7,7 +7,7 @@ import { UAParser } from 'ua-parser-js'
 let game_title = GAME_TITLE
 export function changeGameTitleShare(isHardMode: boolean){
   if(isHardMode){
-    game_title = "Paimordle VI Extreme"
+    game_title = "Wizardle 6 Extreme"
   }
   else{
     game_title = GAME_TITLE

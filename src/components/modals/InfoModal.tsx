@@ -62,26 +62,31 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        This is an open source version of the word guessing game we all know and
-        love -{' '}
+        This wordle is heavily based from Paimordle's open source code. -{' '}
         <a
           href="https://github.com/czhou23/paimordle-vi"
           className="underline font-bold"
         >
-          check out the code here
-        </a>{' '}
-      </p>
-      <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        Find updates on the latest with{' '}
-        <a href="https://twitter.com/paimordle" className="underline font-bold">
-          Paimordle
+          check out the code here!
         </a>{' '}
       </p>
        <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
           Play the original {' '}
          <a href="https://paimordle-vi.vercel.app/" className="underline font-bold">
-           Paimordle
+           Paimordle here!
           </a>{' '}
+      </p>
+      <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
+          Mahoyaku Wordle created by {' '}
+         <a href="https://twitter.com/forinnen" className="underline font-bold">
+           <b>Ran</b>. 
+          </a>{' '}
+          <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
+          Check the Wizardle's github {' '}
+         <a href="https://github.com/chokubits/wizardle-6" className="underline font-bold">
+           here.
+          </a>{' '}
+      </p>
       </p>
     </BaseModal>
   )
