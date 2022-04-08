@@ -33,17 +33,17 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="M" />
+        <Cell value="W" />
         <Cell value="I" />
-        <Cell value="T" />
-        <Cell value="H" />
+        <Cell value="Z" />
+        <Cell value="A" />
         <Cell
           isRevealing={true}
           isCompleted={true}
           value="R"
           status="present"
         />
-        <Cell value="A" />
+        <Cell value="D" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter R is in the word but in the wrong spot.
